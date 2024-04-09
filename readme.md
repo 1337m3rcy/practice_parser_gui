@@ -16,3 +16,8 @@
     cd *project_name*
     pip install -r requirements.txt
     ```
+3. **Запуск проекта**: 
+
+   ```bash
+   python app.py
+   ```

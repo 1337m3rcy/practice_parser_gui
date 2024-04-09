@@ -28,8 +28,8 @@ class Parser:
         response = s.get('https://advanced.name/freeproxy',
                          cookies=self.cookies, headers=self.headers)
 
-        with open('index.html', 'w') as f:
-            f.write(response.text)
+        # with open('index.html', 'w') as f:
+        #     f.write(response.text)
 
         soup = BeautifulSoup(response.text, 'lxml')
         select_elements = soup.find_all(
@@ -52,7 +52,7 @@ class Parser:
         s = requests.Session()
         response = s.get(url, cookies=self.cookies, headers=self.headers)
         proxy_list = []
-        print(response.status_code)
+        print(f'Код ответа сайта: {response.status_code}')
         if response.status_code == 200:
             soup = BeautifulSoup(response.text, 'lxml')
             table_trs = soup.find('table', id='table_proxies').find(
