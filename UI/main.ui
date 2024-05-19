@@ -76,7 +76,7 @@ color: rgb(255, 255, 255);</string>
      <string>Parser</string>
     </property>
    </widget>
-   <widget class="QFrame" name="">
+   <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -119,6 +119,63 @@ color: rgb(255, 255, 255);</string>
       </widget>
      </item>
     </layout>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>530</y>
+      <width>221</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 30);
+border: 4px rgba(255, 255, 255, 40);
+border-raduis: 7px;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Сохранить значения в JSON</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>530</y>
+      <width>221</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 30);
+border: 4px rgba(255, 255, 255, 40);
+border-raduis: 7px;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Создать карту IP</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>570</y>
+      <width>101</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 30);
+border: 4px rgba(255, 255, 255, 40);
+border-raduis: 7px;
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Открыть карту</string>
+    </property>
    </widget>
   </widget>
  </widget>

@@ -14,6 +14,8 @@
 
     ```bash
     cd *project_name*
+   ```
+   ```bash
     pip install -r requirements.txt
     ```
 3. **Запуск проекта**: 
